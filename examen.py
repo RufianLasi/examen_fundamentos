@@ -19,7 +19,6 @@ opcion = 0
 def stock_marca():
     disponible = input("ingrese la marca que desea buscar: ").lower()
     for i in productos.values():
-        for i in stock:
         if disponible.lower() in i:
             print (f"stock la marca {disponible}:{i}")
             
